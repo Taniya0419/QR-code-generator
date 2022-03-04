@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Qr Code Generator</title>
+  </head>
+  <body>
+    <section>
+      <div class="heading">
+        <h1>Qr Code Generator<br />
+          JavaScript's 'qrious Library'</h1>
+      </div>
+
+      <div class="qrcode-container">
+        <canvas id="canvas"> </canvas>
+        <input type="text" class="qrText" id="qrText" placeholder="Enter Text" />
+        <button class="button" id="generate-button" onclick="generateQRCode()">Generate</button>
+        <button class="button" id="print-button">Print</button>
+      </div>
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js" integrity="sha512-pUhApVQtLbnpLtJn6DuzDD5o2xtmLJnJ7oBoMsBnzOkVkpqofGLGPaBJ6ayD2zQe3lCgCibhJBi4cj5wAxwVKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src=".\app.js">
+      
+    </script>
+
+  </body>
+</html>
